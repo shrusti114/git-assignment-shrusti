@@ -19,3 +19,38 @@ font-size: 1rem;}
 .ui-button:hover {
   background-color: #45a049; /* Darker green on hover */
 }
+
+.ui-form-container {
+  border-radius: 5px; /* Rounded corners */
+  background-color: #f2f2f2; /* Light grey background */
+  padding: 20px; /* Add padding */
+  width: 50%; /* Set a specific width */
+}
+
+/* Style the input elements and the select element */
+.ui-form-container input[type=text], .ui-form-container select {
+  width: 100%; /* Full width */
+  padding: 12px 20px; /* Some padding */
+  margin: 8px 0; /* Margin between elements */
+  display: inline-block; /* Display them as block elements */
+  border: 1px solid #ccc; /* A little border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and borders are included in the element's total width */
+}
+
+/* Style the submit button */
+.ui-form-container input[type=submit] {
+  width: 100%;
+  background-color: #007BFF; /* Blue background */
+  color: white; /* White text */
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Add a hover effect for the submit button */
+.ui-form-container input[type=submit]:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
