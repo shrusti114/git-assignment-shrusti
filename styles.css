@@ -1,2 +1,21 @@
  body { background: #f0ebe3; 
 font-size: 1rem;}
+
+.ui-button {
+  background-color: #4CAF50; /* Green background */
+  border: none; /* Remove border */
+  color: white; /* White text */
+  padding: 15px 32px; /* Some padding */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Get a button that takes up a width based on the text width */
+  font-size: 16px; /* Increase font size */
+  margin: 4px 2px; /* Add a little margin */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  border-radius: 8px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+.ui-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
