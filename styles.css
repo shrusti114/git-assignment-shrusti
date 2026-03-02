@@ -54,3 +54,28 @@ font-size: 1rem;}
 .ui-form-container input[type=submit]:hover {
   background-color: #0056b3; /* Darker blue on hover */
 }
+
+/* 1. Define the appearance of the element */
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  margin: 0 auto; /* Centers the box for better viewing */
+  /* 3. Apply the animation to the element using the shorthand property */
+  animation: myAnimation 3s infinite alternate;
+}
+
+/* 2. Define the animation stages using the @keyframes rule */
+@keyframes myAnimation {
+  0% {
+    background-color: blue;
+    transform: scale(1); /* Start with original size */
+  }
+  50% {
+    background-color: orange; /* Change color halfway through */
+  }
+  100% {
+    background-color: green;
+    transform: scale(1.5); /* End 50% larger */
+  }
+}
